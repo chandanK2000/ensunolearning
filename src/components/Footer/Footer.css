@@ -1,0 +1,132 @@
+
+.footer {
+  background-image: linear-gradient(90deg, #2471d6 0%, #0a2540 100%) !important;
+  color: white;
+  padding: 60px 0px;
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box; 
+  margin: 0px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around !important;
+  margin: 20px 0px !important;
+}
+
+
+
+.footer-section {
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+.email-input {
+  width: calc(100% - 130px); 
+  padding: 10px;
+  margin-right: 10px;
+  border: 2px solid orange; 
+  background-image: linear-gradient(90deg, #2471d6 0%, #0a2540 100%) !important;
+  font-size: 16px;
+  outline: none;
+}
+::placeholder{
+  color: white;
+  font-weight: bold;
+}
+
+.email-input:focus {
+  border: 2px solid orange; 
+  box-shadow: none; 
+}
+
+.subscribe-button {
+  padding: 10px 20px;
+  background-color: orange;
+  color: #2196f3; 
+  border: none;
+ 
+  cursor: pointer;
+  color: black;
+  font-weight: 500;
+  transition: background-color 0.3s ease; 
+}
+
+
+
+.footer-logo {
+  max-width: 100px; 
+}
+
+.follow-us {
+  text-align: right;
+  font-weight: bold;
+  margin-bottom: 10px !important;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-icon {
+  margin-left: 10px; 
+  font-size: 34px;
+  color: white;
+  background-color: orange;
+  padding: 5px 8px;
+  border-radius: 3px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer h4 {
+  color: #fff;
+}
+
+.footer p {
+  color: #ddd;
+  margin: 2px 0px;
+}
+.footer hr {
+  border: none;
+  height: 1px;
+  background-color: #ddd;
+  margin: 20px 0;
+}
+
+.footer .copyright {
+  text-align: center;
+  color: #ddd;
+  margin-top: 20px;
+}
+
+
+.footer hr {
+  border: none;
+  height: 2px; 
+  background-color: orange; 
+  margin: 20px 0;
+}
+
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .follow-us-section,.follow-us {
+    text-align: left !important;
+  }
+
+  .social-icons {
+    justify-content: flex-start;
+      margin-left: 0px !important; 
+
+  }
+ 
+}

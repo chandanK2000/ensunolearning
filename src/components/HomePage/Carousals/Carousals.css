@@ -1,0 +1,98 @@
+.carousel-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 0;
+  text-align: center;
+  background-color: #fff;
+}
+
+.carousel-container h3 {
+  color: #0a2540;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.carousel-images {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.carousel-image {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.carousel-image.active {
+  transform: scale(1.1);
+}
+
+.carousel-info {
+  margin-bottom: 20px;
+}
+
+.carousel-info p {
+  color: #0a2540;
+  line-height: 1.6;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.carousel-info h5 {
+  color: #0a2540 !important;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 20px 0;
+}
+
+.carousel-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carousel-controls button {
+  padding: 5px 10px;
+  border: none;
+  color: #0a2540;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 34px;
+  width: 34px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.carousel-controls button:hover {
+  background-color: #0056b3;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-info p {
+    font-size: 16px;
+    width: 90%;
+  }
+
+  .carousel-controls button {
+    margin: 10px;
+  }
+  .carousel-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+}

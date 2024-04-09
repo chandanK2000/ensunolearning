@@ -1,0 +1,30 @@
+
+.form-group .form-control {
+  border: 1px solid red !important;
+  padding: 7px !important; 
+  border-radius: 0 !important; 
+}
+
+.register-button {
+  margin-top: 10px;
+  font-size: 16px; 
+  padding: 4px 20px;
+  background-color:#5d8ff1;
+  font-size: 17px;
+  font-weight: 300;
+  border: none;
+  outline: none;
+  color: white
+}
+
+.container {
+  margin-top: 120px;
+  margin-bottom: 0; 
+}
+
+/* @media screen and (max-width: 480px) {
+ .container {
+  margin-top: 17rem !important;
+  margin-bottom: 0; 
+}
+} */

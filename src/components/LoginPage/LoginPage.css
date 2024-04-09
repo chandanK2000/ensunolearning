@@ -1,0 +1,108 @@
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.registersection {
+  padding: 100px 10px;
+  flex: 1;
+  align-items: center;
+  background-color: orange;
+  color: white;
+  text-align: center;
+}
+
+.registersection h2 {
+  color: white;
+  font-weight: 300;
+  margin: 20px 0px;
+}
+
+.loginsection {
+  text-align: center;
+  flex: 1;
+  align-items: center;
+  padding: 20px 10px;
+}
+
+.loginsection h2 {
+  color: orange;
+  font-weight: 300;
+  margin: 20px 0px;
+}
+
+.loginsection .form-control {
+  width: 70% !important;
+  margin: 0px auto;
+}
+
+.loginsection .form-check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginsection .icon{
+  font-weight: 300;
+  font-size: 16px;
+  color: orange;
+  margin: 5px 10px;
+}
+
+.loginsection .form-check-label {
+  margin-left: 10px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_button {
+  font-size: 16px;
+  padding: 6px 40px;
+  background-color: orange;
+  font-size: 17px;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 30px;
+  margin: 20px 0px !important;
+}
+
+.register_button {
+  margin: 10px 0px;
+  font-size: 16px;
+  padding: 6px 30px;
+  background-color: #0a2540;
+  font-size: 17px;
+  font-weight: 300;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 30px;
+  width: 50%;
+}
+
+
+
+@media (max-width: 768px) {
+  .login-page {
+    flex-direction: column;
+    align-items: center;
+   
+  }
+
+  .registersection,
+  .loginsection {
+    padding: 5px 0px;
+    width: 100%;
+  }
+  
+
+  .register_button {
+    width: 90%;
+  }
+  .loginsection .form-control {
+  width: 85% !important;
+}
+}

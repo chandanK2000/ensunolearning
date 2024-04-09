@@ -1,0 +1,9 @@
+.horizontal-scrollbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px; 
+  background-color: orange; 
+  z-index: 1000;
+  transition: width 0.3s ease;
+}

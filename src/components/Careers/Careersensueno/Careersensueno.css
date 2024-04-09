@@ -1,0 +1,60 @@
+
+.ensuenotlearning {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  width: 100%;
+}
+
+/* Heading Styles */
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.heading p {
+  text-align: center;
+}
+
+
+.job-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin: 0px 100px;
+}
+
+
+.job-card {
+  padding: 30px 20px;
+  border-left: 3px solid orange;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.job-card h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.job-card p {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .job-grid {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .job-grid {
+    grid-template-columns: 1fr; 
+      margin: 0px 10px;
+
+  }
+
+  .job-card {
+    width: 100%;
+  }
+}

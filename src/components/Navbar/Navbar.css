@@ -1,0 +1,94 @@
+.navbar {
+  padding: 1.5rem !important;
+  background-color: #0a2540;
+}
+
+.navbar-logo {
+  margin-right: 1rem;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-weight: 500 !important;
+  margin-right: 10px;
+}
+
+.nav-link.active,
+.register {
+  color: yellow !important;
+}
+
+.nav-link.active,
+.register:hover {
+  color: yellow !important;
+  opacity: 0.8;
+}
+.register {
+  border: 1px solid yellow !important;
+  padding: 3px 8px !important;
+}
+.register:hover {
+  background-color: yellow !important;
+}
+
+.nav-link:hover {
+  color: gray !important;
+}
+.dropdown-menu {
+  display: none;
+  padding: 20px 40px; 
+  border-top: 4px solid orange !important;
+  border-radius: 0 !important; 
+  position: relative;
+  margin-top:0px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: bold; 
+  border-bottom: 1px solid red;
+}
+
+
+@media (max-width: 767px) {
+  @media (max-width: 767px) {
+    .navbar-toggler {
+      background-color: yellow !important;
+      box-shadow: none !important;
+    }
+  }
+
+  .register {
+    border: none !important;
+    padding: none !important;
+    color: white !important;
+  }
+}
+
+.modal-body{
+  padding: 10px !important;
+  margin: 0px !important;
+  border-radius: 10px !important;
+}
+.button_close{
+  height: 30px !important;
+  width: 30px !important;
+  border-radius: 50% !important;
+  background-color: rgb(241, 232, 232) !important;
+  font-size: 16px !important;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: none !important;
+}
+
+@media (max-width: 768px) {
+ .button_close{
+ margin: 20px 0px;
+}
+}
